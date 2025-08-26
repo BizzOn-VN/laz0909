@@ -125,18 +125,25 @@ img{
   left: 50%;
   transform: translateX(-50%);
   top: 15.8%;
-  width: 75.5%;
+  width: 60%;
+}
+.md-img-2{
+      position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 23.3%;
+    width: 50%;
 }
 .md-sp-1{
-      position: absolute;
-    left: 43.5%;
+       position: absolute;
+    left: 49%;
     top: 23.3%;
-    width: 16%;
+    width: 9%;
 }
 .md-text-1{
   position: absolute;
   left: 0%;
-  top: 35.1%;
+  top: 30.5%;
   text-align: center;
   width: 100%;
   font-family: 'EuclidCircularAVN-Bold';
@@ -146,8 +153,8 @@ img{
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  width: 70%;
-  top: 36%;
+  width: 50%;
+  top: 31.5%;
 }
 .md-btn a{
   
@@ -191,10 +198,10 @@ img{
 .md-btn a span{
   position: absolute;
     right: 17%;
-    top: 27%;
+    top: 24%;
     color: #FFF;
     font-family: 'DrukWide-Bold';
-    font-size: calc(25px + 2vw);
+    font-size: calc(10px + 2vw);
     text-shadow: -2px 2px 10px #333;
     text-shadow: -1.5px -1.5px 0 #e2668d, 1.5px 1.5px 0 #e2668d;
     display: inline-block;
@@ -377,13 +384,16 @@ img{
 }
 @media screen and (max-width: 1500px){
   .md-btn a span{
-    font-size: calc(20px + 2vw);
+    font-size: calc(6px + 2vw);
   }
 }
-@media screen and (max-width: 900px){
+@media screen and (max-width: 1200px) and (min-width: 768px){
   .md-btn a span{
-    font-size: calc(10px + 2vw);
-    top: 27%;
+    font-size: calc(6px + 2vw);
+    top: 24%;
+  }
+  .md-btn{
+    top: 32.5%;
   }
 }
 @media screen and (max-width: 767px){
@@ -395,7 +405,20 @@ img{
     top: 27%;
   }
   .md-btn{
-    top: 36.7%;
+    top: 36.4%;
+    width: 75%;
+  }
+  .md-img-2{
+    width: 70%;
+    top: 24.3%;
+  }
+  .md-text-1{
+    top: 34.5%;
+  }
+  .md-sp-1{
+            top: 23.6%;
+        width: 14%;
+        left: 48%;
   }
   .md-row .md-col p{
     margin-bottom: 10px;
@@ -422,7 +445,7 @@ img{
 }
 @media screen and (min-width: 2500px){
   .md-btn a span{
-    font-size: calc(30px + 2vw);
+    font-size: calc(15px + 2vw);
   }
   .md-row .md-col p{
     font-size: calc(10px + 1.5vw);
@@ -446,5 +469,16 @@ img{
   }
   .md-popup-1 .img-cost span{
     font-size: calc(8px + 2vw);
+  }
+  .md-title-1{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 15.8%;
+    width: 75.5%;
+  }
+  .md-title-2{
+    top: 38.5%;
+    width: 79%;
   }
 }
