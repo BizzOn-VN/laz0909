@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Heading Now Trial 64';
+    src: url('HeadingNowTrial-66Bold.eot');
+    src: url('HeadingNowTrial-66Bold.eot?#iefix') format('embedded-opentype'),
+        url('HeadingNowTrial-66Bold.woff2') format('woff2'),
+        url('HeadingNowTrial-66Bold.woff') format('woff'),
+        url('HeadingNowTrial-66Bold.ttf') format('truetype'),
+        url('HeadingNowTrial-66Bold.svg#HeadingNowTrial-66Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
