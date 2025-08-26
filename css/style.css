@@ -352,6 +352,17 @@ img{
 .fancybox-bg{
   background: #000;
 }
+.md-popup-2 .md-back{
+  position: static;
+  opacity: 1;
+  padding: 0;
+  margin: 0;
+  height: auto;
+  width: auto;
+  display: table;
+  margin: 0 auto;
+  border: none !important;
+}
 @media screen and (max-width: 1800px){
   .md-btn a span{
     top: 24%;
