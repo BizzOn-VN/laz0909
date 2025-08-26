@@ -157,6 +157,36 @@ img{
   display: inline-block;
   width: 33%;
   position: relative;
+  animation: md-btn 3s infinite;
+}
+@keyframes md-btn{
+  0%{
+    transform: scale(1.0);
+  }
+  10%{
+    transform: scale(1.1);
+  }
+  20%{
+    transform: scale(1.0);
+  }
+  30%{
+    transform: scale(1.1);
+  }
+  40%{
+    transform: scale(1.0);
+  }
+  50%{
+    transform: scale(1.1);
+  }
+  60%{
+    transform: scale(1.0);
+  }
+  100%{
+    transform: scale(1.0);
+  }
+}
+.md-btn a:hover{
+  animation: none;
 }
 .md-btn a span{
   position: absolute;
@@ -170,9 +200,7 @@ img{
     display: inline-block;
     transform: rotate(13deg);
 }
-.md-btn a:hover{
-  transform: scale(1.1);
-}
+
 .md-title-2{
   top: 38.5%;
   width: 79%;
@@ -321,7 +349,9 @@ img{
   width: 70%;
   font-family: 'EuclidCircularAVN-Bold';
 }
-
+.fancybox-bg{
+  background: #000;
+}
 @media screen and (max-width: 1800px){
   .md-btn a span{
     top: 24%;
