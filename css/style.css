@@ -154,7 +154,7 @@ img{
   left: 50%;
   transform: translateX(-50%);
   width: 50%;
-  top: 31.5%;
+  top: 32.5%;
 }
 .md-btn a{
   
@@ -264,7 +264,7 @@ img{
 .md-logo{
   position: absolute;
   left: 50%;
-  top: 90%;
+  top: 91%;
   transform: translateX(-50%);
   width: 70%;
 }
@@ -376,6 +376,9 @@ img{
   display: table;
   margin: 0 auto;
   border: none !important;
+}
+.md-popup-2 .md-back{
+  outline: none;
 }
 @media screen and (max-width: 1800px){
   .md-btn a span{
