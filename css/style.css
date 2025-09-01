@@ -112,6 +112,13 @@ input[type=submit] {
    url(../fonts/HeadingNowTrial-66Bold/HeadingNowTrial-66Bold.eot) format("eot"),
     url(../fonts/HeadingNowTrial-66Bold/HeadingNowTrial-66Bold.ttf) format("ttf"),
      url(../fonts/HeadingNowTrial-66Bold/HeadingNowTrial-66Bold.woff) format("woff"); }
+      @font-face {
+  font-family: 'SVN-DrukWide-Bold';
+  src: url(../fonts/SVN-DrukWide-Bold/SVN-DrukWide-Bold.woff2) format("woff2"),
+   url(../fonts/SVN-DrukWide-Bold/SVN-DrukWide-Bold.eot) format("eot"),
+    url(../fonts/SVN-DrukWide-Bold/SVN-DrukWide-Bold.ttf) format("ttf"),
+     url(../fonts/SVN-DrukWide-Bold/SVN-DrukWide-Bold.woff) format("woff"); }
+
 img{
   width: 100%;
 }
@@ -129,15 +136,17 @@ img{
 .bg-title p{
   position: absolute;
   left: 50%;
-  bottom: 15%;
+  bottom: 10%;
   transform: translateX(-50%);
-  font-family: 'DrukWide-Bold';
+  font-family: 'SVN-DrukWide-Bold';
+  font-size: calc(10px + 2vw);
   text-align: center;
+  line-height: 1.2;
 }
 .md-item{
   position: absolute;
     left: 42.5%;
-    top: 24.6%;
+    bottom: 63.5%;
     width: 11.4%;
 }
 .bg-button-1{
@@ -149,12 +158,45 @@ img{
 .bg-button-1 .md-button-1{
   position: relative;
   margin-bottom: 20px;
+  animation: md-btn 3s infinite;;
+}
+@keyframes md-btn{
+  0%{
+    transform: scale(1.0);
+  }
+  10%{
+    transform: scale(1.1);
+  }
+  20%{
+    transform: scale(1.0);
+  }
+  30%{
+    transform: scale(1.1);
+  }
+  40%{
+    transform: scale(1.0);
+  }
+  50%{
+    transform: scale(1.1);
+  }
+  60%{
+    transform: scale(1.0);
+  }
+  100%{
+    transform: scale(1.0);
+  }
 }
 .bg-button-1 p{
   position: absolute;
   left: 50%;
   top: 50%;
   transform: translate(-50%,-50%);
+  font-size: calc(10px + 2vw);
+  color: #FFF;
+  text-transform: uppercase;
+  width: 100%;
+  text-align: center;
+  font-family: 'SVN-DrukWide-Bold';
 }
 .bg-button-2{
   position: absolute;
@@ -164,11 +206,122 @@ img{
 }
 .bg-button-2 p{
   position: absolute;
-  left: 5%;
-  top: 5%;
-  transform: rotate(15deg);
+  left: 20%;
+  top: 25%;
+  transform: rotate(10deg);
+  font-family: 'SVN-DrukWide-Bold';
+  font-size: calc(10px + 2vw);
+}
+.md-slider{
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 82%;
+  width: 80%;
 }
 
+.md-slider .img-item{
+  position: relative;
+  z-index: 2;
+}
+.md-slider a{
+  position: relative;
+  z-index: 3;
+  background: #000;
+  color: #FFF;
+  border-radius: 20px;
+  padding: 7px 10px 5px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 25%;
+  line-height: 1;
+}
+.md-slider p{
+  text-align: center;
+}
+.md-dk{
+  position: absolute;
+  bottom: 1%;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+}
+.md-dk p{
+  font-family: 'EuclidCircularAVN-Bold';
+  margin-bottom: 0px;
+}
+.md-dk a{
+  color: #FFF;
+  text-decoration: underline;
+  font-size: calc(6px + 1vw);
+}
 .md-popup-1{
   display: none;
+  width: 40%;
+  background: transparent;
+  padding: 0px;
+}
+.fancybox-is-open .fancybox-bg{
+  background: #000;
+  opacity: 0.96;
+}
+.md-popup-1 .item-popup{
+  position: absolute;
+    left: 45%;
+    bottom: 30%;
+    width: 9%;
+}
+.md-popup-1 a{
+      position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 68%;
+    top: 16%;
+    height: 8%;
+}
+.md-popup-3 .md-content{
+  position: absolute;
+  transform: translateX(-50%);
+  left: 50%;
+  top: 32%;
+  width: 70%;
+}
+.md-popup-3 .md-content p{
+  margin-bottom: 0px;
+  font-size: calc(4px + 0.3vw);
+  color: #000;
+}
+@media screen and (min-width: 1599px){
+  .md-popup-3 .md-content p{
+    font-size: calc(5px + 0.3vw);
+  }
+}
+@media screen and (min-width: 2500px){
+  .md-popup-3 .md-content p{
+    font-size: calc(8px + 0.3vw);
+  }
+}
+@media screen and (max-width: 767px){
+  .md-popup-1{
+    width: 100%;
+  }
+  .md-popup-3 .md-content{
+    top: 30%;
+  }
+  .md-popup-3 .md-content p{
+    font-size: calc(4.5px + 0.3vw);
+  }
+  .bg-title p{
+    font-size: calc(8px + 1vw);
+  }
+  .bg-button-1 p{
+    font-size: calc(8px + 1vw);
+  }
+  .bg-button-2 p{
+    font-size: calc(8px + 1vw);
+  }
+  .md-slider a{
+    font-size: calc(6px + 1vw);
+  }
 }

@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'SVN-Druk Wide';
+    src: url('SVN-DrukWide-Bold.eot');
+    src: url('SVN-DrukWide-Bold.eot?#iefix') format('embedded-opentype'),
+        url('SVN-DrukWide-Bold.woff2') format('woff2'),
+        url('SVN-DrukWide-Bold.woff') format('woff'),
+        url('SVN-DrukWide-Bold.ttf') format('truetype'),
+        url('SVN-DrukWide-Bold.svg#SVN-DrukWide-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
