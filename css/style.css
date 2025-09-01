@@ -157,7 +157,7 @@ img{
 }
 .bg-button-1 .md-button-1{
   position: relative;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
   animation: md-btn 3s infinite;;
 }
 @keyframes md-btn{
@@ -216,10 +216,12 @@ img{
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  top: 82%;
+  top: 78%;
   width: 80%;
 }
-
+.md-slider .md-img-1{
+  position: relative;
+}
 .md-slider .img-item{
   position: relative;
   z-index: 2;
@@ -232,9 +234,9 @@ img{
   border-radius: 20px;
   padding: 7px 10px 5px;
   position: absolute;
-  left: 50%;
+  left: 45%;
   transform: translateX(-50%);
-  top: 25%;
+  bottom: 11%;
   line-height: 1;
 }
 .md-slider p{
@@ -250,6 +252,7 @@ img{
 .md-dk p{
   font-family: 'EuclidCircularAVN-Bold';
   margin-bottom: 0px;
+  line-height: 1;
 }
 .md-dk a{
   color: #FFF;
@@ -269,7 +272,7 @@ img{
 .md-popup-1 .item-popup{
   position: absolute;
     left: 45%;
-    bottom: 30%;
+    bottom: 25%;
     width: 9%;
 }
 .md-popup-1 a{
@@ -322,6 +325,11 @@ img{
     font-size: calc(8px + 1vw);
   }
   .md-slider a{
+    font-size: calc(2px + 1vw);
+    padding: 3px 10px 5px;
+    bottom: 8%;
+  }
+  .md-slider p{
     font-size: calc(6px + 1vw);
   }
 }
