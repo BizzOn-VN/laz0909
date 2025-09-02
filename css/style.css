@@ -136,20 +136,16 @@ img{
 .bg-title p{
   position: absolute;
   left: 50%;
-  bottom: 10%;
+  bottom: 13%;
   transform: translateX(-50%);
   font-family: 'SVN-DrukWide-Bold';
-  font-size: calc(10px + 2vw);
+  font-size: calc(8px + 2vw);
   text-align: center;
   line-height: 1.2;
   color: #FFF;
+  width: 100%;
 }
-.md-item{
-  position: absolute;
-    left: 42.5%;
-    bottom: 64%;
-    width: 11%;
-}
+
 .bg-button-1{
   position: absolute;
   left: 8%;
@@ -321,7 +317,7 @@ img{
     font-size: calc(4.5px + 0.3vw);
   }
   .bg-title p{
-    font-size: calc(8px + 1vw);
+    font-size: calc(6px + 1vw);
   }
   .bg-button-1 p{
     font-size: calc(8px + 1vw);
@@ -337,4 +333,34 @@ img{
   .md-slider p{
     font-size: calc(6px + 1vw);
   }
+}
+.sp-1{
+  position: absolute;
+    left: 42.5%;
+    bottom: 64%;
+    width: 11%;
+}
+.sp-2{
+  position: absolute;
+  left: 37.5%;
+      bottom: 64%;
+      width: 25%;
+}
+.sp-3{
+    position: absolute;
+    left: 34.5%;
+    bottom: 64%;
+    width: 30%;
+}
+.sp-4{
+  position: absolute;
+    left: 35.5%;
+    bottom: 63.5%;
+    width: 35%;
+}
+.sp-5{
+  position: absolute;
+    left: 38.5%;
+    bottom: 64%;
+    width: 20%;
 }
