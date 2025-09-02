@@ -133,7 +133,7 @@ img{
   transform: translateX(-50%);
   width: 67%;
 }
-.bg-title a{
+.bg-title p{
   position: absolute;
   left: 50%;
   bottom: 10%;
