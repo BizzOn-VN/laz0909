@@ -128,9 +128,8 @@ img{
 }
 .bg-title{
   position: absolute;
-  left: 50%;
+  left: 17%;
   top: 20.5%;
-  transform: translateX(-50%);
   width: 67%;
 }
 .bg-title p{

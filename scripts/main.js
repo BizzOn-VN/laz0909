@@ -55,4 +55,6 @@ $('.owl-carousel').owlCarousel({
             items:3
         }
     }
-})
+});
+
+new WOW().init();
