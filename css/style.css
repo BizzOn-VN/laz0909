@@ -126,6 +126,24 @@ img{
 .page-main{
   position: relative;
 }
+.img-hd-1{
+  position: absolute;
+  left: 4.1%;
+  top: 5.2%;
+  width: 56%;
+}
+.img-hd-2{
+  position: absolute;
+  left: 11%;
+    top: 12.6%;
+    width: 45.7%;
+}
+.img-hd-3{
+  position: absolute;
+  left: 10%;
+    top: 73.5%;
+    width: 80%;
+}
 .bg-title{
   position: absolute;
   left: 17%;
