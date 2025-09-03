@@ -249,6 +249,7 @@ img{
   left: 50%;
   transform: translateX(-50%);
   text-align: center;
+  width: 100%;
 }
 .md-dk .dk-text-2{
   color: #FFF;
@@ -259,7 +260,7 @@ img{
 .md-dk .dk-text-1{
   font-family: 'EuclidCircularAVN-Bold';
   margin-bottom: 0px;
-  line-height: 1;
+  line-height: 0.8;
   display: block;
   color: #FFF;
 }
@@ -316,9 +317,17 @@ img{
   }
   .md-popup-3 .md-content{
     top: 30%;
+    overflow-y: scroll;
+    height: 160px;
+
   }
+  .md-popup-3 .md-content::-webkit-scrollbar-thumb {
+    background: #ccc; 
+    border-radius: 10px;
+  } 
   .md-popup-3 .md-content p{
-    font-size: calc(4.5px + 0.3vw);
+    font-size: calc(6px + 1vw);
+    padding-right: 10px;
   }
   .bg-title p{
     font-size: calc(6px + 1vw);
