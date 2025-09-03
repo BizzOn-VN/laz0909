@@ -250,16 +250,20 @@ img{
   transform: translateX(-50%);
   text-align: center;
 }
-.md-dk p{
-  font-family: 'EuclidCircularAVN-Bold';
-  margin-bottom: 0px;
-  line-height: 1;
-}
-.md-dk a{
+.md-dk .dk-text-2{
   color: #FFF;
   text-decoration: underline;
   font-size: calc(6px + 1vw);
+
 }
+.md-dk .dk-text-1{
+  font-family: 'EuclidCircularAVN-Bold';
+  margin-bottom: 0px;
+  line-height: 1;
+  display: block;
+  color: #FFF;
+}
+
 .md-popup-1{
   display: none;
   width: 40%;
