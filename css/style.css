@@ -272,8 +272,7 @@ img{
   padding: 0px;
 }
 .fancybox-is-open .fancybox-bg{
-  background: #000;
-  opacity: 0.96;
+  opacity: 0.8;
 }
 .md-popup-1 .item-popup{
   position: absolute;
@@ -369,7 +368,7 @@ img{
   position: absolute;
     left: 35.5%;
     bottom: 63.5%;
-    width: 35%;
+    width: 32%;
 }
 .sp-5{
   position: absolute;
