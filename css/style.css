@@ -263,6 +263,7 @@ img{
 }
 .md-slider .md-img-1{
   position: relative;
+  padding: 0px 10%;
 }
 .md-slider .img-item{
   position: relative;
@@ -276,7 +277,7 @@ img{
   border-radius: 20px;
   padding: 7px 10px 5px;
   position: absolute;
-  left: 43%;
+  left: 50%;
   transform: translateX(-50%);
   bottom: 11%;
   line-height: 1;
