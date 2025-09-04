@@ -410,7 +410,7 @@ img{
     bottom: 8%;
   }
   .md-slider p{
-    font-size: calc(6px + 1vw);
+    font-size: calc(10px + 1vw);
   }
 }
 .sp-1{
@@ -435,7 +435,7 @@ img{
   position: absolute;
     left: 33.5%;
     bottom: 63.5%;
-    width: 37%;
+    width: 35%;
 }
 .sp-5{
   position: absolute;
